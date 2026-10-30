@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6824811032802154373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9066272315128183059}
+  - component: {fileID: 5096738589789805843}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9066272315128183059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6824811032802154373}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5096738589789805843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6824811032802154373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e3f14185c37f746a5faf8cf207ed5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MazeGenerator.Runtime::MazeGenerator.MazeGeneratorBehaviour
+  parameters:
+    Width: 15
+    Height: 15
+    Seed: 12345
+    Algorithm: 0
+    Shape: 0
+    CustomMaskTexture: {fileID: 0}
+    OpeningCount: 2
+    BraidFactor: 0
+    RoomCount: 0
+    RoomMinSize: 2
+    RoomMaxSize: 4
+    BuildChunkSize: 16
+    MarkBuildStatic: 1
+    CellSize: 4
+    WallHeight: 2
+    WallThickness: 2
+  prefabs:
+    WallPrefab: {fileID: 3051761046727611388, guid: 0ba9c261b00c0684d84b227ba7ea955b, type: 3}
+    WallPercent: 75
+    SecondaryWallPrefab1: {fileID: 5162044417341451082, guid: 5da88e5fc9d64bc409f701f905bbea90, type: 3}
+    SecondaryWall1Percent: 25
+    SecondaryWallPrefab2: {fileID: 0}
+    SecondaryWall2Percent: 0
+    DebugSolutionPrefab: {fileID: 3071289946927986525, guid: f1b4d3a7c5e97d0b2f6a8c0415d23e44, type: 3}
+    _lastWallPercent: 75
+    _lastSecondaryWall1Percent: 25
+    _lastSecondaryWall2Percent: 0

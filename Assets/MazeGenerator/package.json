@@ -1,0 +1,25 @@
+{
+  "name": "com.p-matt.mazegenerator",
+  "displayName": "Maze Generator",
+  "version": "1.0.0",
+  "unity": "6000.0",
+  "description": "Procedural 3D maze toolkit for Unity 6 (URP): Backtracker, Prim, Eller, shapes, openings, braiding, rooms, prefab walls, and editor tools.",
+  "keywords": [
+    "maze",
+    "procedural",
+    "generator",
+    "dungeon",
+    "urp",
+    "level-design"
+  ],
+  "author": {
+    "name": "p-matt"
+  },
+  "samples": [
+    {
+      "displayName": "Maze Demo",
+      "description": "Demo scene with sample wall prefabs pre-assigned on MazeGenerator.",
+      "path": "Samples"
+    }
+  ]
+}
